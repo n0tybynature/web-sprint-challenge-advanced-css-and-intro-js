@@ -142,7 +142,16 @@ button:hover{
         
     }
 
+    nav {
+        align-items: center;
+        
+    }
 
+    nav span {
+        
+        height: 20px;
+        border-left:2px solid #626262;
+    }
 
    .artist {
        width: 74vw;
@@ -150,15 +159,21 @@ button:hover{
    }
 
     a {
-        font-size: 1.4rem;
-        padding: 0 10%;
+        font-size: 1.6rem;
+        padding: 10%;
+    }
+
+    h1 {
+        font-size: 5.5rem;
+        font-weight: 550;
+        letter-spacing: 0.03cm;
     }
 
     .title-container div{
         width: 100%;
         margin-bottom: 2%;
         height: 50vh;
-        background-position: center;
+     
 
     }
     .title-container hr {
@@ -170,6 +185,7 @@ button:hover{
     }
     img {
         height: 80%;
+        padding-bottom: 3%;
         
     }
     div.bio {
